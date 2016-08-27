@@ -2,7 +2,7 @@
 Returns an object with only the specified keys.  
 This is synchronous code, so callbacks are not not used.
 
-Useful when you want to pass only specific parts of a JSON object.
+Useful when you want to keep/pass only specific parts of a JSON object.
 
 ### Usage
 ```js
