@@ -1,6 +1,6 @@
 {
   "name": "json-keep",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "returns an object with only the specified key/value pairs",
   "main": "index.js",
   "scripts": {
