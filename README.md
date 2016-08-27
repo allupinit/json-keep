@@ -1,6 +1,7 @@
 # json-keep
-Returns an object with only the specified keys.
+Returns an object with only the specified keys.  
 Useful when you want to pass only specific parts of a JSON object.
+
 This is synchronous code, so callbacks are required.
 
 ### Usage
