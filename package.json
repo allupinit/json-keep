@@ -1,0 +1,24 @@
+{
+  "name": "json-keep",
+  "version": "0.9.1",
+  "description": "returns an object with only the specified key/value pairs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allupinit/json-keep.git"
+  },
+  "keywords": [
+    "json",
+    "filter",
+    "reduce"
+  ],
+  "author": "Keith Steckert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allupinit/json-keep/issues"
+  },
+  "homepage": "https://github.com/allupinit/json-keep#readme"
+}
