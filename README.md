@@ -1,3 +1,17 @@
+[![npm][npm-image]][npm-url]
+[![downloads][downloads-image]][downloads-url]
+[![npm-issues][npm-issues-image]][npm-issues-url]
+[![js-standard-style][standard-image]][standard-url]
+
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
+[standard-url]: http://standardjs.com/
+[npm-image]: https://img.shields.io/npm/v/json-keep.svg?style=flat
+[npm-url]: https://npmjs.org/package/json-keep
+[downloads-image]: https://img.shields.io/npm/dt/json-keep.svg?style=flat
+[downloads-url]: https://npmjs.org/package/json-keep
+[npm-issues-image]: https://img.shields.io/github/issues/allupinit/json-keep.svg
+[npm-issues-url]: https://github.com/allupinit/json-keep/issues
+
 # json-keep
 Returns an object with only the specified keys.  
 This is synchronous code, so callbacks are not not used.
