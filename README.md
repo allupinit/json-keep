@@ -2,6 +2,7 @@
 [![downloads][downloads-image]][downloads-url]
 [![npm-issues][npm-issues-image]][npm-issues-url]
 [![js-standard-style][standard-image]][standard-url]
+[![GitHub license][license-image]][license-url]
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]: http://standardjs.com/
@@ -11,6 +12,8 @@
 [downloads-url]: https://npmjs.org/package/json-keep
 [npm-issues-image]: https://img.shields.io/github/issues/allupinit/json-keep.svg
 [npm-issues-url]: https://github.com/allupinit/json-keep/issues
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://raw.githubusercontent.com/allupinit/json-keep/master/LICENSE
 
 # json-keep
 Returns an object with only the specified keys.  
