@@ -35,3 +35,25 @@ console.log('keeping:',jsonKeep(obj,[1,5,4]));
 ```js
 keeping:  { '1': 1, '4': 4 }
 ```
+
+### Example Scenario
+```js
+var jsonKeep = require('json-keep')
+obj = { password:'5ecret!'
+       ,admin:true
+       ,taxID:'000-00-0000'
+      }
+adminFunction(jsonKeep(obj,['password','admin']),function(err,result){
+// This function does something only an admin has permission to do.
+// For this reason, we only pass in the password & admin status.
+// This is just an example!
+//
+// Your function may only require a few select keys, so there is
+// no need to pass in everything you have in the object you are working  
+// with (which could be user input, or sensitive info from DB results).
+//
+// For security (or various other) reasons you use this module to refine 
+// the object/data you pass along so you never have to worry about the
+// possibility of this function handling irrelevant or sensitive data.
+})   
+```
